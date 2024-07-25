@@ -10,12 +10,12 @@ const ProductList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://api.example.com/products');
+        const response = await fetch('https://dummyjson.com/products');
         const data = await response.json();
         if (Array.isArray(data)) {
           setProducts(data);
         } else {
-          throw new Error('API response is not an array');
+          throw new Error('API response is not valid');
         }
       } catch (error) {
         setError(error.message);
