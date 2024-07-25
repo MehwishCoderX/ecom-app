@@ -1,0 +1,38 @@
+.filters {
+  /* border: ; */
+  border-left:1px solid #ccc ;
+  padding: 60px;
+  border-radius: 8px;
+  max-width: 300px;
+}
+.filter-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.filter-categories,
+.filter-stock-status {
+  margin-bottom: 16px;
+}
+h3 {
+  margin-bottom: 8px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+.line2 {
+  background: #ccc;
+  width: 240px;
+  height: 1px;
+}
+.line3
+{
+    background: #CCC;
+    width: 1px;
+height: 1615px;
+}
+.main-filters{
+    display: flex ;
+    flex-direction: row;
+}

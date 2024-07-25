@@ -1,0 +1,5 @@
+.HomeHero
+{
+    display: flex;
+    flex-direction: row;
+}
