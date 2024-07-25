@@ -15,6 +15,7 @@ const Home = () => {
       <div className='HomeHero'>
       <Filters/>
  <ProductList/>
+ {/* <Product/> */}
       </div>
       
     </div>
